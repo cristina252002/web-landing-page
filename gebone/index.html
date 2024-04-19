@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/png" href="taas.png" sizes="32x32">
+    <title>Campaign Monitor: Email Marketing Platform & Services</title>
+
+    <style>
+
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Graphik Web', Helvetica, sans-serif;
+        }
+   
+
+       .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #111324;
+    height: 80px;
+    z-index: 1000;
+    position: fixed;
+    width: 100%; 
+    top: 0; 
+}
+
+
+        .header_left { 
+            margin-left: 0px;
+            margin-right: auto;
+            align-items: center;
+        }
+
+        .header_right {
+            margin-left: auto;
+            display: flex;
+        }
+        .header_lahi{
+            margin-top: 25px;
+            margin-right: 180px;
+        }
+       
+
+
+        .parent {
+            list-style: none;
+            padding: 0;
+            margin-top: 25px;
+            margin-right: 75px;
+        }
+
+         .top {
+            display: inline-block;
+            padding-right: 20px;
+        }
+
+        .top a{
+            text-decoration: none;
+            color: #ffffff;
+            font-size: 18px;
+
+
+        }
+
+        .top:hover .child {
+    display: block;
+    position: absolute;
+    top: 60px;
+    padding: 0px;
+}
+
+
+        .top a:hover {
+            color: #8ed1fc;
+        }
+       
+
+
+       .child {
+    display: none;
+    position: absolute;
+    background-color: white;
+    z-index: 1;
+    text-align: left;
+    border-radius: 5px;
+    box-shadow: 5px 0 10px -5px rgba(0, 0, 0, 0.5), -5px 0 10px -5px rgba(0, 0, 0, 0.5);
+
+
+}
+
+.header_lahi button{
+    padding: 10px 15px; 
+    color:black; 
+    border-radius: 5px; 
+    background-color: #51cfdb; 
+    border: none; 
+    font-size: 16px; 
+    float: right;
+    cursor: pointer;
+    top: 23px;
+    right: 100px;
+    position: absolute;
+}
+
+.header_lahi button:hover{
+     filter: brightness(1.05);
+}
+
+
+
+
+        .child li {
+            list-style: none;
+        }
+
+        .child li a {
+            text-decoration: none;
+            color: black;
+            display: block;
+            font-size: 15px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 10px;
+            padding-right: 10px;
+            text-align: left;
+        }
+
+        .child li a:hover {
+            color: black;
+            background-color: #8ed1fc;
+            border-radius: 5px;
+        }
+
+     
+        .una{
+            margin-top: 80px;
+
+        }
+        .dos{
+            margin-top: 300px;
+            background-color: #f6f6f7;
+
+        }
+        .tres{
+            padding-bottom: 150px;
+        }
+
+        .kwatro{
+            padding-top: 20px;
+            padding-bottom: 125px;
+            background-color: #f6f6f7;
+
+        }
+
+        .singko{
+            padding-top: 50px;
+            padding-bottom: 250px;
+
+        }
+        .says{
+             background-color: #f6f6f7;
+             height: 500px;
+             display: flex;
+             justify-content: center;
+        }
+        .saysmil{
+             padding-top: 60px;
+            padding-bottom: 178px; 
+            background-color: #f6f6f7;
+
+        }
+        
+        .ocho{
+             padding-top: 70px;
+            padding-bottom: 145px; 
+            background-color: #f6f6f7;
+
+        }
+        .nueve{
+            padding-top: 25px;
+            padding-bottom: 250px;
+        }
+        .jes{
+            height: 300px;
+            overflow: hidden;
+        }
+        .unsi{
+            text-align: center;
+            background: linear-gradient(to right, #7856ff 0%, #65b9ff 100%);
+            margin-top: -24px;
+            padding-bottom: 100px;
+
+        }
+        footer{
+            background-color: #111324;
+        }
+        .footer{
+            margin-inline: 7%;
+            display: flex;
+            justify-content: space-between;
+            padding-bottom: 50px;
+            
+        }
+        .otlen{
+            display: flex;
+            justify-content: space-between;
+            padding-top: 50px;
+        }
+        .otlen ul{
+            list-style: none;
+            color: white;
+            font-size: 12px;
+        }
+         .otlen li{
+            padding: 5px;
+            text-decoration: none;
+            cursor: pointer;
+
+        }
+        .otlen li:hover{
+            padding: 5px;
+            opacity: 0.7;
+            cursor: pointer;
+
+        }
+       
+
+    </style>
+    <script src="https://kit.fontawesome.com/ecd5e25db3.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <div class="header">
+        <div class="header_left">    
+       <a href="index- Copy.html"><img style="width: 230px; height: 70px; margin-left: 100px; top: 5px; position: absolute;" src="cm.png"></a>
+        </div>
+        <div class="header_right">
+        <div class="dropdown__container">
+            <ul class="parent">
+
+    <li class="top"><a style=""onmouseover="this.style.color='white'"  href="#"> Features<i class="fa-solid fa-angle-down" style="color: #ccd0d6; font-size: 14px;
+    margin-left: 5px;"></i></a>
+    <ul class="child">
+        <li class="bottom"><a href="index- Copy.html">Features Overview</a></li>
+        <li class="bottom"><a href="index- Copy.html">Email Template Builder</a></li>
+        <li class="bottom"><a href="index- Copy.html">Segmentation</a></li>
+        <li class="bottom"><a href="index- Copy.html">Personalization</a></li>
+        <li class="bottom"><a href="index- Copy.html">Marketing Automation</a></li>
+        <li class="bottom"><a href="index- Copy.html">Transactional Email</a></li>
+        <li class="bottom"><a href="index- Copy.html">Analytics</a></li>
+        <li class="bottom"><a href="index- Copy.html">AI</a></li>
+        <li class="bottom"><a href="index- Copy.html">Integrations</a></li>
+    </ul></li>
+
+    <li class="top"><a href="index- Copy.html">Pricing</a></li>
+    <li class="top"><a href="index- Copy.html">Resources</a></li>
+    <li class="top"><a href="index- Copy.html">Customers</a></li>
+    <li class="top"><a href="index- Copy.html">Gallery</a></li>
+    <li class="top"><a href="index- Copy.html">Agencies</a></li>
+    </ul>
+    </div>
+    </div>
+
+    <ul class="header_lahi">
+    <li class="top"><a href="index- Copy.html">Contact us</a></li>
+    <li class="top"><a href="index- Copy.html">Log in</a></li>
+    <li class="top"><a href="index- Copy.html"><button>Try it free</button></a></li>
+    </ul>
+        </div>
+        </div>
+
+    </header>
+
+
+    <main>
+        <section class="una">
+            
+<h1 style="font-size: 55px; margin-left: 120px; margin-top: 220px;">Drive results with<br> unforgettable email<br> marketing.</h1>
+<p style="font-size: 20px;  margin-left: 120px;">Connecting with your audience has never been easier with Campaign<br> Monitor’s straightforward email marketing and automation tools.</p>
+<a href="index- Copy.html">
+    <button style="padding: 20px 15px; width: 270px; color: white; border-radius: 2px; border: none; background-color: #7856ff; font-size: 17px; cursor: pointer; top: 540px; left: 120px; position: absolute; transition: opacity 0.3s;" onmouseover="this.style.opacity = '0.8';" onmouseout="this.style.opacity = '1';">Sign up for free</button>
+</a>
+
+
+<a href="index- Copy.html">
+    <button id="tow" style="padding: 20px 15px; width: 270px; color: #7856ff; border-radius: 2px; background-color: white; border: 1px solid #7856ff; font-size: 17px; cursor: pointer; top: 540px; left: 405px; position: absolute;" 
+            onmouseover="this.style.color = 'white'; this.style.backgroundColor = '#7856ff'; this.style.border = 'none';" 
+            onmouseout="this.style.color = '#7856ff'; this.style.backgroundColor = 'white'; this.style.border = '1px solid #7856ff';">Learn more</button>
+</a>
+
+<img style="width: 38%; height:80%; position: absolute; margin-left: 850px; margin-top: -400px;" src="pic1.webp" alt="pic">
+        </section>
+
+        <section class="dos">
+            <p style="font-size: 24px; text-align: center; padding-top: 100px;">Powering email marketing for businesses around the world.</p>
+            <img style="width: 100%;" src="pic2.png">
+        </section>
+
+        <section class="tres">
+            <h1 style="font-size: 30px; margin-left: 120px; margin-top: 90px;">New in Campaign Monitor: Manage your Loyalty Program<br> with Automations</h1>
+<p style="font-size: 16.5px;  margin-left: 120px;">Loyalty programs are at the heart of true relationship marketing as they’re designed to reward your most engaged<br> subscribers – ensuring they become brand super fans and continue to come back to your products or services at key<br> moments. They also offer a competitive advantage, solving the age-old challenge of trying to do more with less.<br><br>
+
+By leveraging our new automation features, you can now build and manage tiered and punch card loyalty programs within<br> Campaign Monitor (no third party integrations required!).</p>
+
+<img style="width: 15%; height:20%; position: absolute; margin-left: 1100px; margin-top: -200px;" src="pic3.webp" alt="pic">
+
+<a href="index- Copy.html"><button style="padding: 20px 15px; width: 135px; color: white; border-radius: 2px; border: none; background-color: #7856ff;  font-size: 17px; cursor: pointer; top: 1500px; left: 120px; position: absolute; transition: opacity 0.3s;" onmouseover="this.style.opacity = '0.8';" onmouseout="this.style.opacity = '1';"> Sign up</button></a>
+
+<a href="index- Copy.html">
+    <button id="tow" style="padding: 20px 15px; width: 150px; color: #7856ff; border-radius: 2px; background-color: white; border: 1px solid #7856ff; font-size: 17px; cursor: pointer; top: 1500px; left: 275px; position: absolute;" 
+            onmouseover="this.style.color = 'white'; this.style.backgroundColor = '#7856ff'; this.style.border = 'none';" 
+            onmouseout="this.style.color = '#7856ff'; this.style.backgroundColor = 'white'; this.style.border = '1px solid #7856ff';">Learn more</button>
+</a>
+
+        </section>
+
+        <section class="kwatro">
+        <h1 style="font-size: 30px; text-align: center; margin-top: 90px;">Drag and drop your way to a beautiful email.</h1> 
+        <p style="font-size: 13px; margin-left: 120px; margin-top: 100px; color: #5d5d66;">
+    <strong style="color: black;">EASE OF USE</strong><br><br>
+    Customize any template or design to showcase your brand using the<br> simply powerful <a style="color: #7856ff; text-decoration: none;" href="index- Copy.html">drag-and-drop email builder</a> —no coding required.<br><br><br>
+    <strong style="color: black;">COMPLETE CUSTOMIZATION</strong><br><br>
+    Display your brand at its best with precise adjustments to every<br> aspect of your campaign in the email builder.<br><br><br>
+    <strong style="color: black;">MOBILE OPTIMIZATION</strong><br><br>
+    Every template is responsive to mobile devices so you can send<br> knowing your campaigns look great everywhere.<br><br><br> 
+    <b style="color: black;">TEMPLATE MANAGEMENT FOR TEAMS</b><br><br>
+    Allow your email designer to lock sections of the template so that<br> your team only updates what you want them to — ensuring your<br> brand style and business critical information all stay intact.
+</p>
+    <img style="width: 53%; height:65%; position: absolute; right: 0px; margin-top: -430px;" src="pic4.png" alt="pic">
+
+
+    <p style="font-size: 15px; text-align: center;  margin-top: 200px; ">Eager to see it in action? Take a look.</p>
+
+    <a href="index- Copy.html">
+    <button style="padding: 20px 15px; width: 160px; color: white; border-radius: 2px; border: none; background-color: #7856ff; font-size: 17px; cursor: pointer; margin-bottom: 75px; left: 120px; position: absolute; transition: opacity 0.3s;" onmouseover="this.style.opacity = '0.8';" onmouseout="this.style.opacity = '1';">Get a demo</button>
+</a>
+   
+        </section>
+
+        <section class="singko">
+        <h1 style="font-size: 30px; margin-left: 250px; margin-top: 120px;">Introducing AI Writer</h1> 
+        <p style="font-size: 16.5px; margin-left: 250px; margin-top: -10px; color: #5d5d66;">
+    AI Writer, our new artificial intelligence tool, helps<br> marketers do their jobs faster by banishing writer’s block<br> and increasing the amount of email campaigns being<br> sent to subscribers.
+</p>
+    
+
+    <a href="index- Copy.html">
+    <button style="padding: 10px 7.5px; width: 120px; height: 50px; color: white; border-radius: 2px; border: none; background-color: #7856ff; font-size: 15px; cursor: pointer; margin-bottom: 75px; left: 250px; position: absolute; transition: opacity 0.3s;" onmouseover="this.style.opacity = '0.8';" onmouseout="this.style.opacity = '1';">Explore AI</button>
+</a>
+   <img style="width: 25%; height:60%; position: absolute; right: 400px; margin-top: -250px;" src="pic4.webp" alt="pic">
+      
+        </section>
+
+
+        <section class="says">
+<div class="saysmil">
+        <h1 style="font-size: 30px; margin-left: 950px; margin-top: 70px;">Get started with one of<br> our free templates.</h1> 
+        <p style="font-size: 16.5px; margin-left: 950px; margin-top: -10px; color: #5d5d66;">
+    Start your email with one of our professionally-<br>designed templates to launch targeted campaigns<br> like marketing offers, product announcements,<br> newsletters, or event promotions.
+
+
+</p>
+    
+
+    <a href="index- Copy.html">
+     <button id="tow" style="padding: 10px 7.5px; width: 150px; height: 50px; margin-bottom: 75px; right: 44.5vh; color: #7856ff; border-radius: 2px; background-color: white; border: 1px solid #7856ff; font-size: 15px; cursor: pointer;  position: absolute;" 
+            onmouseover="this.style.color = 'white'; this.style.backgroundColor = '#7856ff'; this.style.border = 'none';" 
+            onmouseout="this.style.color = '#7856ff'; this.style.backgroundColor = 'white'; this.style.border = '1px solid #7856ff';">Build an email</button>
+</a>
+   <img style="width: 61%; height:65%; position: absolute; left: 0px; margin-top: -300px; " src="pic5.png" alt="pic">
+
+  </div> 
+        </section>
+
+        <section class="siete">
+            <div class="sietemil">
+            <img style="width: 100%;" src="pic6.jpg">
+            <p style="font-size: 20px; text-align: left; left: 250px; margin-top: -280px; position: absolute; color: white; position: absolute;">"Campaign Monitor helped us easily create beautiful emails that turned our<br> Bombshell wetsuit into a global phenomenon.”</p>
+   <p style="font-size: 13px; text-align: left; left: 250px;  margin-top: -200px; position: absolute; color: white; position: absolute;"><strong>James Taylor, Global Creative Director</strong></p>
+     <a href="index- Copy.html">
+     <button id="tow" style="padding: 10px 7.5px; width: 200px; height: 50px; top: 3840px; left: 250px; color: #7856ff; border-radius: 2px; background-color: white; border: none; font-size: 15px; cursor: pointer;  position: absolute;" 
+            onmouseover="this.style.color = 'white'; this.style.backgroundColor = 'transparent'; this.style.border = '1px solid white';" 
+            onmouseout="this.style.color = '#7856ff'; this.style.backgroundColor = 'white'; this.style.border = 'none';">See Rip Curl's success</button>
+</a> 
+</div>
+        </section>
+
+        <section class="ocho">
+
+        <h1 style="font-size: 30px; margin-left: 950px; margin-top: 45px;">SMS is here!<br>
+A new way to connect.<br>
+A new way to convert.</h1> 
+        <p style="font-size: 16.5px; margin-left: 950px; margin-top: -10px; color: #5d5d66;">
+    Combining SMS and email marketing is the<br> perfect way to build a stronger connection with<br> your audience and maximize ROI. We make it<br> easy to get started.
+
+</p>
+    
+
+    <a href="index- Copy.html">
+     <button id="tow" style="padding: 10px 7.5px; width: 150px; height: 50px; margin-bottom: 25px; left: 950px; color: white; border-radius: 2px; background-color: #7856ff; border: 1px solid #7856ff; font-size: 15px; cursor: pointer;  position: absolute; 
+            transition: opacity 0.3s;" onmouseover="this.style.opacity = '0.8';" onmouseout="this.style.opacity = '1';">Learn More</button>
+</a>
+   <img style="width: 61%; height:65%; position: absolute; left: 0px; margin-top: -330px; " src="pic7.png" alt="pic">
+   
+        </section>
+
+         <section class="nueve">
+
+        <h1 style="font-size: 30px; margin-left: 250px; margin-top: 120px;">Automate email journeys<br> for perfectly timed sends.</h1> 
+        <p style="font-size: 16.5px; margin-left: 250px; margin-top: -10px; color: #5d5d66;">
+    Most marketers think automation is intimidating. But<br> creating customer journeys has never been more<br> approachable than with the visual journey designer.
+</p>
+    
+
+  
+<a href="index- Copy.html">
+     <button id="tow" style="padding: 10px 7.5px; width: 150px; height: 50px; margin-top: 20px; left: 250px; color: #7856ff; border-radius: 2px; background-color: white; border: 1px solid #7856ff; font-size: 15px; cursor: pointer;  position: absolute;" 
+            onmouseover="this.style.color = 'white'; this.style.backgroundColor = '#7856ff'; this.style.border = 'none';" 
+            onmouseout="this.style.color = '#7856ff'; this.style.backgroundColor = 'white'; this.style.border = '1px solid #7856ff';">Explore automation</button>
+</a> 
+   <img style="width: 30%; height:50%; position: absolute; right: 200px; margin-top: -200px;" src="pic8.webp" alt="pic">
+      
+        </section>
+
+
+        <section class="jes">
+            <img style="width: 100%; height: auto;" src="pic9.jpg">
+            <p style="font-size: 20px; text-align: left; left: 250px; margin-top: -380px; position: absolute; color: white; position: absolute;">“Campaign Monitor helped transform us from a small idea to a real company thanks<br> to their user-friendly tools — I honestly could not recommend them enough.”</p>
+   <p style="font-size: 13px; text-align: left; left: 250px;  margin-top: -300px; position: absolute; color: white; position: absolute;"><strong>Ellen Hyslop, Co-Founder of The GIST</strong></p>
+     <a href="index- Copy.html">
+     <button id="tow" style="padding: 10px 7.5px; width: 200px; height: 50px; top: 5210px; left: 250px; color: #7856ff; border-radius: 2px; background-color: white; border: none; font-size: 15px; cursor: pointer;  position: absolute;" 
+            onmouseover="this.style.color = 'white'; this.style.backgroundColor = 'transparent'; this.style.border = '1px solid white';" 
+            onmouseout="this.style.color = '#7856ff'; this.style.backgroundColor = 'white'; this.style.border = 'none';">
+See The GIST's success
+</button>
+</a> 
+        </section>
+
+        <section class="unsi">
+            <p style="font-size: 24px; color: white;   padding-top: 120px;">Get started with<br> Campaign Monitor today</p>
+
+            <p style="font-size: 16.5px;  margin-top: 30px; color: white;">
+    With our powerful yet easy-to-use tools, it's never been easier<br> to make an impact with email marketing.
+</p>
+    
+            <a href="index- Copy.html">
+     <button id="tow" style="padding: 10px 7.5px; width: 200px; height: 50px; margin-top: 30px; color: #7856ff; border-radius: 2px; background-color: white; border: none; font-size: 15px; cursor: pointer; " 
+            onmouseover="this.style.color = 'white'; this.style.backgroundColor = 'transparent'; this.style.border = '1px solid white';" 
+            onmouseout="this.style.color = '#7856ff'; this.style.backgroundColor = 'white'; this.style.border = 'none';">
+Sign up for free
+</button></a>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer">
+            
+       
+        <div>
+            <a href="index- Copy.html"><img style="padding-top: 20px;" src="cm.png"></a>
+        </div>
+        <div  class="otlen">
+        <ul>
+            <li style="color: #5d5d66; font-size: 13px;">PRODUCT</li>
+            <li>Features</li>
+            <li>Pricing</li>
+            <li>Integrations</li>
+            <li>API</li>
+            <li>Email Templates</li>
+        </ul>
+         <ul>
+            <li style="color: #5d5d66; font-size: 13px;">EMAIL MARKETING</li>
+            <li>Agencies</li>
+            <li>Retail</li>
+            <li>Nonprofit</li>
+            <li>Entertainment</li>
+            <li>Publishing</li>
+            <li>Technology</li>
+            <li>Travek</li>
+        </ul>
+        <ul>
+            <li style="color: #5d5d66; font-size: 13px;">COMMUNITY</li>
+            <li>Get Started</li>
+            <li>Customers</li>
+            <li>Resources</li>
+            <li>Blog</li>
+            <li>Email Academy</li>
+            <li>Support</li>
+        </ul>
+        <ul>
+            <li style="color: #5d5d66; font-size: 13px;">COMPANY</li>
+            <li>About us</li>
+            <li>Leadership</li>
+            <li>Trust Center</li>
+            <li>In the news</li>
+            <li>Sitemap</li>
+            <li>Modern Slavery Statement</li>
+            <li><a href="index- Copy.html"><img src="footlong.png"></a></li>
+        </ul>
+        </div>
+         </div>
+
+         <div class="sub-footer">
+            <Ul style="margin-left: 560px; position: absolute; margin-top: -2px;">
+    <li><a href="https://www.linkedin.com/company/campaign-monitor/" target="_blank"><img src="in.png" alt="LinkedIn"></a></li>
+    <li><a href="https://twitter.com/campaignmonitor" target="_blank"><img src="tt.png" alt="Twitter"></a></li>
+    <li><a href="https://www.facebook.com/campaignmonitor" target="_blank"><img src="fb.png" alt="Facebook"></a></li>
+    <li><a href="https://www.instagram.com/campaign.monitor/" target="_blank"><img src="ins.png" alt="Instagram"></a></li>
+            </ul>
+
+            <ul style=" color: #bebec2;">
+            <li>Terms & Policies</li> 
+            <li>Do not sell my personal information</li> 
+            <li>© 2024 All Rights Reserved </li>
+            </ul>
+
+            <p style="color: #bebec2;  font-size: 13px; text-align: center; margin-top: 50px;">Campaign Monitor by Marigold: where relationships take root.</p>
+            <a href="index- Copy.html"><img style=" margin-left: 500px;" src="pic10.png" alt="pakyo"></a> 
+
+         </div>
+    </footer>
+    
+<style>
+        .sub-footer{
+            margin-inline: 7%;
+            padding-bottom: 30px;
+            padding-top: 30px;
+            border-top: 1px solid #5d5d66;
+            border-top-length: 86%;
+
+        }
+        .sub-footer ul{
+            list-style: none;
+            color: white;
+            font-size: 12px;
+
+            margin-left: 750px;
+
+        }
+         .sub-footer li{
+            padding: 5px;
+            text-decoration: none;
+            cursor: pointer;
+            display: inline-block;
+
+        }
+        .sub-footer li:hover{
+            padding: 5px;
+            opacity: 0.7;
+            cursor: pointer;
+
+        }
+          
+</style>
+</body>
+</html>
+
+
+
+    
+    
+    
+    
+    
+
+    
+    
+     
+
+
+
+
+
